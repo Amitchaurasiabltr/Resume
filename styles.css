@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body{
+    font-family: "Montserrat", sans-serif;
+    max-width: 50%;
+    margin: auto;
+    color: rgb(65, 63, 63);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.fac{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.title{
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name{
+    color: gray;
+}
+
+.coral{
+    color: coral;
+}
+
+.designation{
+    letter-spacing: 1px;
+}
+
+.hrline{
+    border: 1px solid coral;
+}
+
+.table-heading{
+    min-width: 200px;
+    display: block;
+}
+
+.intro{
+    text-align: justify;
+}
+
+.table-pros{
+    font-size: 22px;
+    color: coral;
+}
+
+.marginfix{
+    margin-top: 20px;
+}
+
+.project-title{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.project-date{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.project-discription{
+    margin-top: 20px;
+    text-align: justify;
+}
